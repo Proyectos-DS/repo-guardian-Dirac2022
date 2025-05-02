@@ -1,0 +1,13 @@
+@startuml
+!theme vibrant
+
+actor User as "User"
+rectangle "Repo-Guardian CLI/TUI" as App
+database "Local Git Repository (.git)" as LocalRepo
+cloud "GitHub API" as GitHubAPI
+
+User -- App : Uses
+App -- LocalRepo : Audits / Repairs
+App -- GitHubAPI : Fetches info / Uploads artifacts (future)
+
+@enduml
