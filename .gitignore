@@ -1,2 +1,6 @@
 # Entorno virtual
 .venv/
+
+
+# tests
+tests/__pycache__/

@@ -11,6 +11,7 @@ parse_type==0.6.4
 pluggy==1.5.0
 Pygments==2.19.1
 pytest==8.3.5
+pytest-cov==6.1.1
 pytest-xdist==3.6.1
 PyTrie==0.4.0
 rich==14.0.0
