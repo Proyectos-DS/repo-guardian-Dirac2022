@@ -10,6 +10,6 @@ def step_impl(context):
     pass
 
 
-@then('everything is oke')
+@then('everything is okay')
 def step_impl(context):
     assert True
